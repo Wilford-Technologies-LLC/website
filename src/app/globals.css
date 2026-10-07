@@ -337,6 +337,15 @@ img {
   margin-top: 16px;
 }
 
+.notice {
+  padding: 20px 24px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  background: var(--bg-soft);
+  margin: 0;
+}
+
 /* Privacy */
 .prose h2 {
   font-size: 18px;

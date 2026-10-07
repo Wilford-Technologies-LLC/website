@@ -15,10 +15,16 @@ export default async function Contact({ params }: { params: Promise<{ lang: Loca
       <div className="container narrow">
         <h1 className="page-title">{t.title}</h1>
         <p className="lead">{t.lead}</p>
-        <a href={site.contactFormUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-          {t.button}
-        </a>
-        <p className="note">{t.note}</p>
+        {site.contactFormUrl ? (
+          <>
+            <a href={site.contactFormUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+              {t.button}
+            </a>
+            <p className="note">{t.note}</p>
+          </>
+        ) : (
+          <p className="notice">{t.preparing}</p>
+        )}
       </div>
     </section>
   );

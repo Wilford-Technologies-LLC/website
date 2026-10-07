@@ -1,30 +1,39 @@
 // 会社情報・外部リンクはこのファイルにまとめています。
-// 「〇〇」や TODO の箇所は正式な情報が決まりしだい差し替えてください。
+// TODO の箇所は正式な情報が決まりしだい差し替えてください。
 
 export const site = {
   url: "https://wilford.co.jp",
-  // お問い合わせ用 Google フォームの URL（TODO: 作成後に差し替え）
-  contactFormUrl: "https://forms.gle/REPLACE_ME",
+  // お問い合わせ用 Google フォームの URL（TODO: 作成後に設定。空のあいだは「準備中」と表示）
+  contactFormUrl: "" as string,
 } as const;
 
 export const company = {
   ja: {
     name: "ウィルフォード・テクノロジーズ合同会社",
-    representative: "代表社員 〇〇 〇〇", // TODO
-    address: "〒000-0000 〇〇県〇〇市〇〇", // TODO
-    founded: "20〇〇年〇月〇日", // TODO
-    capital: "〇〇万円", // TODO
-    business: ["スマートフォンアプリの企画・開発・運営", "Webサービスの企画・開発・運営"],
+    representative: "代表社員 柳瀬 崇",
+    address: "〒116-0012 東京都荒川区東尾久4-24-12",
+    founded: "2026年11月11日",
+    capital: "30万円",
+    business: [
+      "スマートフォンアプリの企画・開発・運営",
+      "Webサービスの企画・開発・運営",
+      "AIコンサルティング",
+      "研究開発",
+      "海外情報調査",
+    ],
   },
   en: {
     name: "Wilford Technologies LLC",
-    representative: "Representative Member: TBD", // TODO
-    address: "TBD, Japan", // TODO
-    founded: "TBD", // TODO
-    capital: "TBD", // TODO
+    representative: "Takashi Yanase, Representative Member",
+    address: "4-24-12 Higashiogu, Arakawa-ku, Tokyo 116-0012, Japan",
+    founded: "November 11, 2026",
+    capital: "JPY 300,000",
     business: [
       "Planning, development and operation of mobile apps",
       "Planning, development and operation of web services",
+      "AI consulting",
+      "Research and development",
+      "Overseas information research",
     ],
   },
 } as const;
