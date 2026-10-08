@@ -11,7 +11,7 @@ export const company = {
   ja: {
     name: "ウィルフォード・テクノロジーズ合同会社",
     representative: "代表社員 柳瀬 崇",
-    address: "〒116-0012 東京都荒川区東尾久4-24-12",
+    address: "東京都荒川区",
     founded: "2026年11月11日",
     capital: "30万円",
     business: [
@@ -25,7 +25,7 @@ export const company = {
   en: {
     name: "Wilford Technologies LLC",
     representative: "Takashi Yanase, Representative Member",
-    address: "4-24-12 Higashiogu, Arakawa-ku, Tokyo 116-0012, Japan",
+    address: "Arakawa-ku, Tokyo, Japan",
     founded: "November 11, 2026",
     capital: "JPY 300,000",
     business: [
